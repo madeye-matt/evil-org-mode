@@ -136,7 +136,7 @@ FUN function callback"
   "J" 'org-shiftdown
   "K" 'org-shiftup
   "L" 'org-shiftright
-  "o" '(lambda () (interactive) (evil-org-eol-call 'clever-insert-item))
+  ;"o" '(lambda () (interactive) (evil-org-eol-call 'clever-insert-item))
   "O" '(lambda () (interactive) (evil-org-eol-call 'org-insert-heading))
   "$" 'org-end-of-line
   "^" 'org-beginning-of-line
